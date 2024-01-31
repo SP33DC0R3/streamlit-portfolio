@@ -14,3 +14,8 @@ with col2:
     I play chess and love to workout. I am a noob to programming and creating apps but I am trying hard to reach the greater heights. 
     """
     sl.info(my_des)
+
+content1 = """
+Below you will find some of the apps I have build in python. Feel free to contact me!
+"""
+sl.write(content1)
