@@ -21,15 +21,21 @@ Below you will find some of the apps I have build in python. Feel free to contac
 """
 sl.write(content1)
 
-col3, col4 = sl.columns(2)
+col3, empty_col, col4 = sl.columns([1.5, 0.5, 1.5])
 
 df = pandas.read_csv("data.csv", sep=";")
 
 with col3:
     for index, row in df[:10].iterrows():
         sl.header(row["title"])
-
+        sl.write(row["description"])
+        sl.image("images/" + row["image"])
+        sl.write(f"[Source Code]({row['url']})")
+        print(row)
 
 with col4:
     for index, row in df[10:].iterrows():
         sl.header(row["title"])
+        sl.write(row["description"])
+        sl.image("images/" + row["image"])
+        sl.write(f"[Source Code]({row['url']})")
