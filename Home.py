@@ -31,7 +31,6 @@ with col3:
         sl.write(row["description"])
         sl.image("images/" + row["image"])
         sl.write(f"[Source Code]({row['url']})")
-        print(row)
 
 with col4:
     for index, row in df[10:].iterrows():
