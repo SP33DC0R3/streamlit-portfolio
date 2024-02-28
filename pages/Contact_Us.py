@@ -7,12 +7,13 @@ with sl.form(key="email_form"):
     user_email = sl.text_input("Your email:")
     raw_message = sl.text_area("Your Message:")
     message = f"""\
-    Subject: Python Portfolio Message
-    
-    From: {user_email}
-    {raw_message}
+Subject: Python Portfolio Website Message
+
+From: {user_email}
+{raw_message}
 """
     button = sl.form_submit_button("Send")
     if button:
         send_email(message)
         sl.info("Your email was sent!")
+        print(user_email, raw_message, "\n", message)
