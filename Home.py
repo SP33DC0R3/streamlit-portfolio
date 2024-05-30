@@ -11,7 +11,7 @@ with col1:
 with col2:
     sl.title("Zamer Aeli")
     my_des = """
-    Hi , I am Zamer! I am learning python and ethical hacking because I love doing it and also to raise my family. 
+    Hi , I am Zamer! I am learning python and ethical hacking because I love doing it. 
     I play chess and love to workout. I am a noob to programming and creating apps but I am trying hard to reach the greater heights. 
     """
     sl.info(my_des)
