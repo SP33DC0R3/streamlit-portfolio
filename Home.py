@@ -11,9 +11,12 @@ with col1:
 with col2:
     sl.title("Zamer Aeli")
     my_des = """
-    Hi , I am Zamer! I am learning python and ethical hacking because I love doing it. 
-    I play chess and love to workout. I am a noob to programming and creating apps but I am trying hard to reach the greater heights. 
-    """
+    Hey there, welcome to my portfolio! I’m all about that music life, especially when I’m jamming on the tabla. Chess is my go-to for strategic fun, and I can ace a Rubik's Cube in no time.
+
+I’m a total nerd for learning, especially in programming. Python is my playground, and I’m diving into the world of ethical hacking for some extra excitement. My projects reflect this mix of interests, showcasing my knack for coding and problem-solving with a twist of creativity.
+
+Join me on this journey through music, strategy, and tech wizardry. Let’s have a blast creating awesome stuff together!
+"""
     sl.info(my_des)
 
 content1 = """
