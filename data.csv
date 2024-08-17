@@ -17,5 +17,5 @@ Visualizing Data;A program that visualizes the data collected in the previous mo
 Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/SP33DC0R3;16.png
 Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;https://github.com/SP33DC0R3;17.png
 School Management System;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;https://github.com/SP33DC0R3;18.png
-Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;https://github.com/SP33DC0R3;19.png
+Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;https://github.com/SP33DC0R3/django-restaurant-menu-app;19.png
 Online Store;A Django online store app where users can place orders and sellers can manage them.;https://github.com/SP33DC0R3;20.png
